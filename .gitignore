@@ -1,0 +1,6 @@
+# Only the app is published. Keep documents and data files out of the repo.
+*.docx
+*.pdf
+*.json
+*.csv
+*.zip

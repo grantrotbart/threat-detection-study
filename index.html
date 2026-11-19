@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threat Detection Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Experimenter console -->
+  <div id="console">
+    <header class="topbar">
+      <div class="brand">
+        <strong>Threat Detection Study</strong>
+        <span class="muted">AI bias × time pressure · experimenter console</span>
+      </div>
+      <nav class="tabs" id="tabs">
+        <button data-tab="run" class="active">Run session</button>
+        <button data-tab="data">Data</button>
+        <button data-tab="analysis">Analysis &amp; simulation</button>
+        <button data-tab="stimuli">Stimuli</button>
+        <button data-tab="settings">Settings</button>
+      </nav>
+    </header>
+    <main id="view"></main>
+  </div>
+
+  <!-- Participant-facing runner (full screen) -->
+  <div id="runner" hidden>
+    <div id="stage"></div>
+    <div id="esc-menu" hidden>
+      <div class="esc-card">
+        <h3>Experimenter menu</h3>
+        <p>The session is paused between trials.</p>
+        <div class="row">
+          <button id="esc-resume" class="btn primary">Resume session</button>
+          <button id="esc-abort" class="btn danger">Stop &amp; save (can resume later)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tooltip" role="tooltip" hidden></div>
+
+  <script src="js/stimuli.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
