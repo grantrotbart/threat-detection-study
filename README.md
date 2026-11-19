@@ -4,7 +4,11 @@ A browser app for running the 2 × 2 within-subjects study (AI bias × time pres
 
 ## Running it on a team laptop
 
-Open `index.html` in **Chrome or Edge** (double-click it, or open the shared link). It runs offline and needs no install. Data is saved in that laptop's browser.
+**Link for the team: https://grantrotbart.github.io/threat-detection-study/**
+
+Open it in **Chrome or Edge** on the laptop you will test on. Nothing to install. Data is saved in that laptop's browser and never leaves it until you export or send the JSON files. Always use the same browser on the same laptop, and don't use a private/incognito window, because that erases the data when it closes. (You can also double-click `index.html` from a downloaded copy, but then use only that copy, since the link and the file keep separate data.)
+
+With default settings the protocol code is **QST-GIW**. Every laptop should show this code.
 
 ### One-time setup on each laptop
 1. **Run session** tab → enter your **name** and the **laptop make & model**. These are saved with every session.
